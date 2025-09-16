@@ -44,6 +44,7 @@ function showInformations(json){
     document.querySelector('#title').innerHTML = `${json.city}, ${json.country}`; /*esse ta pegando */
     document.querySelector('#temperature_value').innerHTML = `${json.temp.toFixed(1).toString().replace('.', ',')} <sup>°C</sup>`;
     document.querySelector('#temperature_description').innerHTML = `${json.description}`;
+    document.querySelector('#icon').setAttribute('src', `http://openweathermap.org/img/wn/${json.tempIcon}@2x.png`);
     document.querySelector('#temperature_max').innerHTML = `${json.tempMax.toFixed(1).toString().replace('.',',')} <sup>°C</sup>`;
     document.querySelector('#humidity').innerHTML = `${json.humidity}%`;
     document.querySelector('#wind').innerHTML = `${json.windSpeed.toFixed(1)} km/h`;
