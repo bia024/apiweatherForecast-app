@@ -6,7 +6,7 @@ Weather Forecast App is a simple web application that provides real-time weather
 - HTML
 - CSS
 - JavaScript
-- [OpenWeatherMap API](https://openweathermap.org/) *(or the API you used)*
+- [OpenWeatherMap API](https://openweathermap.org/) 
 
 ## Features
 - Search weather by city name
